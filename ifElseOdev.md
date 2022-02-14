@@ -25,7 +25,6 @@ namespace dotNetCore
             Console.WriteLine(sonuc);
 
 
-
         }
     }
 }
