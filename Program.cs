@@ -7,42 +7,43 @@ namespace dotNetCore
     {
         static void Main(string[] args)
         {
-            //while
-            //1 den başlayarak consoldan girilen sayıya kadar ortolama yazdıran kod
-            Console.Write("Sayı Giriniz: ");
-            int sayi = int.Parse(Console.ReadLine());
-            int sayac = 1;
-            int toplam= 0;
-            while (sayac <= sayi)
+            //Dizi tanımlama
+            string[] renkler = new string[5];
+            string[] hayvanlar = {"kedi","köpek","kuş","maymun"};
+
+            int[] dizi;
+            dizi = new int [6];
+
+            //Dizilere Değer atama ve Erişim
+            renkler[0]="Mavi";
+            Console.WriteLine(hayvanlar[3]);
+            dizi[3]= 11;
+
+            Console.WriteLine(dizi[3]);
+            Console.WriteLine(renkler[0]);
+
+            //Döngülerle dizi kullanımı
+            //Klavyeden girilen n sayıda sayının ortalamaları
+            Console.Write("Kaç adet sayı gireceksiniz: ");
+            int giris = int.Parse(Console.ReadLine());
+            int toplam = 0;
+            int[] dizi2 = new int [giris]; 
+            for (int i = 0; i < giris; i++)
             {
-                toplam += sayac;
-                sayac++;
+                Console.Write("Sayı Giriniz: ");
+                int sayı = int.Parse(Console.ReadLine());
+                toplam += sayı;
+                dizi2[i] = sayı; 
             }
-            double ortolama = toplam / sayi;
-            Console.WriteLine("Sayıların toplamı: " + toplam);
-            Console.WriteLine("Sayıların Ortalaması: " + ortolama);
-
-
-            Console.WriteLine("-------------------------------");
-            //a dan z ye kadar tüm harfleri konsola yazdır.
-            char character = 'a';
-            while (character < 'z')
+            Console.WriteLine("-----------------------------");
+            Console.WriteLine("Girdiğiniz sayılar: ");
+            foreach (var i in dizi2)
             {
-                Console.Write(character + " ");    
-                character++;
-                
+                Console.Write(i + "-");
             }
-            Console.WriteLine("-------------------------------");
-            //Foreach
-            string[] arabalar = {"Bmw","Ford","Toyota", "Nissan"};
-            foreach (var araba in arabalar)
-            {
-                Console.WriteLine(araba);
-            }
-
-
-
-
+            Console.WriteLine("-----------------------------");
+            Console.WriteLine("Toplamı: " + toplam);
+            Console.WriteLine("Ortalaması: " + toplam/giris);
         }
     }
 }
