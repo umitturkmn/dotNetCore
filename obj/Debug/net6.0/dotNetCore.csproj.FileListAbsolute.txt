@@ -1,8 +1,5 @@
 /Users/umitpasahz/Desktop/Ümit/Yazılım/Patika/dotNetCore/bin/Debug/net6.0/dotNetCore
-/Users/umitpasahz/Desktop/Ümit/Yazılım/Patika/dotNetCore/bin/Debug/net6.0/dotNetCore.deps.json
-/Users/umitpasahz/Desktop/Ümit/Yazılım/Patika/dotNetCore/bin/Debug/net6.0/dotNetCore.runtimeconfig.json
 /Users/umitpasahz/Desktop/Ümit/Yazılım/Patika/dotNetCore/bin/Debug/net6.0/dotNetCore.dll
-/Users/umitpasahz/Desktop/Ümit/Yazılım/Patika/dotNetCore/bin/Debug/net6.0/ref/dotNetCore.dll
 /Users/umitpasahz/Desktop/Ümit/Yazılım/Patika/dotNetCore/bin/Debug/net6.0/dotNetCore.pdb
 /Users/umitpasahz/Desktop/Ümit/Yazılım/Patika/dotNetCore/obj/Debug/net6.0/dotNetCore.csproj.AssemblyReference.cache
 /Users/umitpasahz/Desktop/Ümit/Yazılım/Patika/dotNetCore/obj/Debug/net6.0/dotNetCore.GeneratedMSBuildEditorConfig.editorconfig
@@ -12,4 +9,3 @@
 /Users/umitpasahz/Desktop/Ümit/Yazılım/Patika/dotNetCore/obj/Debug/net6.0/dotNetCore.dll
 /Users/umitpasahz/Desktop/Ümit/Yazılım/Patika/dotNetCore/obj/Debug/net6.0/ref/dotNetCore.dll
 /Users/umitpasahz/Desktop/Ümit/Yazılım/Patika/dotNetCore/obj/Debug/net6.0/dotNetCore.pdb
-/Users/umitpasahz/Desktop/Ümit/Yazılım/Patika/dotNetCore/obj/Debug/net6.0/dotNetCore.genruntimeconfig.cache

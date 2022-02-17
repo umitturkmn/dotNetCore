@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/umitpasahz/Desktop/Ümit/Yazılım/Patika/dotNetCore/dotNetCore.csproj",
+      "projectUniqueName": "/Users/umitpasahz/Desktop/Ümit/Yazılım/Patika/dotNetCore/dotNetCore.csproj",
       "projectName": "dotNetCore",
-      "projectPath": "/Users/umitpasahz/Desktop/Ümit/Yazılım/Patika/dotNetCore/dotNetCore.csproj",
+      "projectPath": "/Users/umitpasahz/Desktop/Ümit/Yazılım/Patika/dotNetCore/dotNetCore.csproj",
       "packagesPath": "/Users/umitpasahz/.nuget/packages/",
-      "outputPath": "/Users/umitpasahz/Desktop/Ümit/Yazılım/Patika/dotNetCore/obj/",
+      "outputPath": "/Users/umitpasahz/Desktop/Ümit/Yazılım/Patika/dotNetCore/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/umitpasahz/.nuget/NuGet/NuGet.Config"
