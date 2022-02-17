@@ -20,7 +20,7 @@ namespace dotNetCore
             //Compare,ComperaTo
             Console.WriteLine(degisken.CompareTo(degisken2));//0,1,-1
             Console.WriteLine(string.Compare(degisken,degisken2,true));
-            Console.WriteLine(string.Compare(degisken,degisken2,true));
+            Console.WriteLine(string.Compare(degisken,degisken2,false));
             //Contains
             Console.WriteLine(degisken.Contains(degisken2));//Bulıursa true döner
             Console.WriteLine(degisken.EndsWith("Hoşgeldiniz...")); //Bunla bitiyorsa true

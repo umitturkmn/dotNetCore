@@ -46,7 +46,7 @@ namespace dotNetCore
             Console.WriteLine(Math.Tan(10)); //Tanjant
 
             Console.WriteLine(Math.Ceiling(22.3)); // ilgili sayıfdan en büyük tam sayıyı bulur = 23
-            Console.WriteLine(Math.Round(10.5)); // en yakın tamsayıya gider = 11
+            Console.WriteLine(Math.Round(10.5)); // en yakın tamsayıya gider = 10
             Console.WriteLine(Math.Floor(10.9)); // aşağıo yuvarlar = 10
 
             Console.WriteLine(Math.Max(2,6));
@@ -58,7 +58,7 @@ namespace dotNetCore
             Console.WriteLine(Math.Exp(3)); // e üzeri 3ü veriri
             Console.WriteLine(Math.Log10(10)); // 10 sayısının 10 tabanından logoaritmasını verir.
 
-            
+
 
             
 
