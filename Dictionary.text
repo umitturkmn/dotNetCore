@@ -1,0 +1,52 @@
+﻿using System;
+using System.Linq;
+using System.Collections.Generic;
+using System.Collections;
+
+namespace dotNetCore
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            
+            Dictionary<int,string> kullanıcılar = new Dictionary<int, string>();
+            kullanıcılar.Add(10,"ümit");
+            kullanıcılar.Add(52,"Mavera");
+            kullanıcılar.Add(31,"Osan");
+
+            //Dizinin elemanlarına erişim
+            Console.WriteLine(kullanıcılar[10]); //Burada indeks yok. Key var. 10 keyine sahip ümit yazılacaktır.
+            foreach (var item in kullanıcılar)
+            {
+                Console.WriteLine(item);
+            }
+
+            //Count
+            Console.WriteLine(kullanıcılar.Count); // eleman sayısını verir
+
+            //Contains
+            Console.WriteLine(kullanıcılar.ContainsKey(12)); //12 numaralı key varsa true yoksa false verir
+            Console.WriteLine(kullanıcılar.ContainsValue("Adam")); // adam varsa true yoksa false verir
+
+            //Remove
+            Console.WriteLine(kullanıcılar.Remove(10)); //ilgili keyi çıkartır.
+
+            //Keyse
+            //Values
+            foreach (var item in kullanıcılar.Keys) //keys yazarsak keylerle ilgili işlem yapar. value yazarsak value ile.
+            {
+                Console.WriteLine(item);
+            }
+
+
+
+        }   
+       
+    }
+    
+    
+    
+
+}
+    
