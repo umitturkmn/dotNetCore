@@ -37,7 +37,11 @@ namespace dotNetCore
         calisan2.No = 4552;
         calisan2.Departman = "Satın Alma";
         calisan2.CalisanBilgileri();
-
+        Calisan calisan3 = new Calisan("mahmut","altın",433,"Savaş Sanayi");
+        calisan3.CalisanBilgileri();
+        Calisan calisan4 = new Calisan("Merve","Aydoğdu");
+        calisan4.CalisanBilgileri();
+        
         }   
        
     }
@@ -47,7 +51,24 @@ namespace dotNetCore
         public string Ad;
         public string Soyad;
         public int No;
-        public String Departman;
+        public string Departman;
+
+        public Calisan(string ad, string soyad,int no,string departman)
+        {
+            this.Ad = ad;
+            this.Soyad = soyad;
+            this.No = no;
+            this.Departman = departman;
+
+        }
+        public Calisan(string ad, string soyad)
+        {
+            this.Ad = ad;
+            this.Soyad = soyad;
+
+        }
+
+        public Calisan(){}
 
         public void CalisanBilgileri()
         {
