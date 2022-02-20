@@ -19,8 +19,6 @@ namespace dotNetCore
             dg_struct.UzunKenar = 44;
             Console.WriteLine("Class Alan Hesabı: {0}", dg_struct.AlanHesaplama());
 
-
-        
         }  
 
     }  
