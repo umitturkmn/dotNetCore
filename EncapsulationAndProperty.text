@@ -43,7 +43,7 @@ namespace dotNetCore
             get => sinif; 
             set
             {   
-                if(value <=1)
+                if(value <1)
                 {
                     Console.WriteLine("Sınıf en az 1 olabiliri.");
                     sinif = 1;
