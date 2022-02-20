@@ -12,7 +12,7 @@ namespace dotNetCore
              Console.WriteLine(Gunler.Pazar);
              Console.WriteLine((int)Gunler.Cuma);
             
-             Console.Write("Hava Kaç Derece?");
+             Console.Write("Hava Kaç Derece?: ");
              int sicak = int.Parse(Console.ReadLine());
              if(sicak <= (int)HavaDurumu.Normal) 
              {
